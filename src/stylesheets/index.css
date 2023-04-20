@@ -1,0 +1,11 @@
+@import "style.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply response-font-[100-20]
+    }
+}

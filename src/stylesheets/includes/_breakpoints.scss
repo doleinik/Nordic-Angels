@@ -1,0 +1,27 @@
+@mixin media($point) {
+    @if $point==w1199 {
+        @media (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $point==w991 {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+    @else if $point==w767 {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $point==w480 {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+    @else if $point==w380 {
+        @media (max-width: 380px) {
+            @content;
+        }
+    }
+}
