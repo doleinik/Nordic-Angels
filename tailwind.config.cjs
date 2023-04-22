@@ -15,7 +15,10 @@ module.exports = {
         },
         extend: {
             colors: {
-                mainColor: 'var(--main-color)',
+                'steel-grey': 'var(--color-steel-grey)',
+                'dark-graphite': 'var(--color-dark-graphite)',
+                'ocean-green': 'var(--color-ocean-green)',
+                charcoal: 'var(--color-charcoal)',
             },
             screens: {
                 mobile: '768px',
