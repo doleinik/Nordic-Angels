@@ -27,6 +27,7 @@ module.exports = {
                 'dark-graphite': 'var(--color-dark-graphite)',
                 'ocean-green': 'var(--color-ocean-green)',
                 charcoal: 'var(--color-charcoal)',
+                'white/50': 'rgba(255, 255, 255, 0.5)',
             },
             screens: {
                 mobile: '768px',
