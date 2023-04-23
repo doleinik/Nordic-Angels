@@ -9,7 +9,7 @@
         @apply response-font-[160-64] text-white font-medium leading-[0.95] tracking-[-.04em]
     }
     .title-2 {
-        @apply response-font-[80-20] text-white font-medium leading-[0.95] tracking-[.03em]
+        @apply response-font-[80-48] text-white font-medium leading-[0.95] tracking-[.03em]
     }
     .title-3 {
         @apply response-font-[48-28] text-white font-medium leading-[0.95] tracking-[-.03em]
