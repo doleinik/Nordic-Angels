@@ -10,7 +10,15 @@ module.exports = {
         container: {
             center: true,
             screens: {
-                mobile: '1900px',
+                mobile: '768px',
+                tablet: '991px',
+                desktop: '1360px'
+            },
+            padding: {
+                DEFAULT: '1.0625rem',
+                mobile: '1.0625rem',
+                tablet: '1.3rem',
+                desktop: '1.5rem',
             },
         },
         extend: {
@@ -50,6 +58,14 @@ module.exports = {
                     'response-ml': (value) => ({
                         marginLeft: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
                     }),
+                    'response-my': (value) => ({
+                        marginTop: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                        marginBottom: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'response-mx': (value) => ({
+                        marginLeft: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                        marginRight: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
 
                     'response-padding': (value) => ({
                         padding: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
@@ -65,6 +81,14 @@ module.exports = {
                     }),
                     'response-pl': (value) => ({
                         paddingLeft: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'response-py': (value) => ({
+                        paddingTop: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                        paddingBottom: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'response-px': (value) => ({
+                        paddingLeft: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                        paddingRight: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
                     })
                 }
             )
