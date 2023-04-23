@@ -21,6 +21,9 @@ module.exports = {
                 desktop: '1.5rem',
             },
         },
+        fontFamily: {
+            'font': 'var(--font)'
+        },
         extend: {
             colors: {
                 'steel-grey': 'var(--color-steel-grey)',
@@ -29,6 +32,7 @@ module.exports = {
                 charcoal: 'var(--color-charcoal)',
                 'white/50': 'rgba(255, 255, 255, 0.5)',
             },
+
             screens: {
                 mobile: '768px',
                 tablet: '991px',
