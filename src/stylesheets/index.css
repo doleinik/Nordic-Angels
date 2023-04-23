@@ -27,7 +27,7 @@
         @apply response-font-[16-14] text-white font-normal leading-[1.25] tracking-[-.01em]
     }
     .subtitle-4 {
-        @apply response-font-[14-12] text-white font-normal leading-[1.25] tracking-[-.01em]
+        @apply response-font-[14-14] text-white font-normal leading-[1.25] tracking-[-.01em]
     }
     .subtitle-5 {
         @apply response-font-[12-12] text-white font-normal leading-[1.25] tracking-[-.01em]
