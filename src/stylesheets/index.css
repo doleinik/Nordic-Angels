@@ -9,7 +9,7 @@
         @apply response-font-[160-64] text-white font-medium leading-[0.95] tracking-[-.04em]
     }
     .title-2 {
-        @apply response-font-[80-20] text-white font-medium leading-[0.95] tracking-[.03em]
+        @apply response-font-[80-48] text-white font-medium leading-[0.95] tracking-[-.03em]
     }
     .title-3 {
         @apply response-font-[48-28] text-white font-medium leading-[0.95] tracking-[-.03em]
@@ -27,7 +27,7 @@
         @apply response-font-[16-14] text-white font-normal leading-[1.25] tracking-[-.01em]
     }
     .subtitle-4 {
-        @apply response-font-[14-12] text-white font-normal leading-[1.25] tracking-[-.01em]
+        @apply response-font-[14-14] text-white font-normal leading-[1.25] tracking-[-.01em]
     }
     .subtitle-5 {
         @apply response-font-[12-12] text-white font-normal leading-[1.25] tracking-[-.01em]
