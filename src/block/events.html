@@ -1,0 +1,39 @@
+<section class="events bg-steel-grey">
+  <div class="container">
+    <div class="response-mb-[0-14]">
+      <h2 class="max-w-[19.375rem] title-2 hidden mobile:block">Events&nbsp;& Meetups</h2>
+      <h2 class="max-w-[19.375rem] m-auto text-center title-2 mobile:hidden">Events&nbsp;& Happenings</h2>
+    </div>
+
+    <div class="response-mb-[15-29] flex items-center justify-center mobile:justify-end">
+      <p class="mr-2 subtitle-4">Interested in hosting or attending? Let us know</p>
+      <a href="#">
+        <img src="../assets/img/arrow_button.svg" alt="arrow_butoon">
+      </a>
+    </div>
+
+
+    <div class="flex justify-center gap-10 flex-wrap 2xl:flex-nowrap">
+      @@include('../components/event_card.html',
+      {number: '001',
+      title: 'EVENTS & HAPPENINGS',
+      img: { url: '../assets/img/event_1.svg', alt: 'event_1'},
+      subtitle: 'Luncheons',
+      text: 'We organize luncheons erat lacus, congue sed posuere vel, cursus sit amet velit. In eget posuere felis. Integer ex massa, molestie at porta porttitor, aliquet et lacus.'})
+
+      @@include('../components/event_card.html',
+      {number: '002',
+      title: 'EVENTS & HAPPENINGS',
+      img: { url: '../assets/img/event_2.svg', alt: 'event_2'},
+      subtitle: 'Gala',
+      text: 'A yearly event that condimentum viverra, orci metus placerat mi, quis rhoncus dui mi ut tortor. Proin hendrerit neque et diam laoreet pretium.'})
+
+      @@include('../components/event_card.html',
+      {number: '003',
+      title: 'EVENTS & HAPPENINGS',
+      img: { url: '../assets/img/event_3.svg', alt: 'event_3'},
+      subtitle: 'Pitches',
+      text: 'On a regular basis we organize vel sem ultrices, convallis lacus sit amet, efficitur odio. Nulla facilisi. Sed ac eros a tortor vehicula vestibulum blandit ut mauris.'})
+    </div>
+  </div>
+</section>
