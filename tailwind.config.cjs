@@ -22,7 +22,7 @@ module.exports = {
             },
         },
         fontFamily: {
-            'font': 'var(--font)'
+            'font-circular': 'var(--font-circular)',
         },
         extend: {
             colors: {
