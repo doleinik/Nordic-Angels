@@ -17,6 +17,9 @@
     .title-4 {
         @apply response-font-[24-18] text-white font-normal leading-[1.625rem] tracking-[-.01em]
     }
+    .title-5 {
+        @apply response-font-[10-10] text-ocean-green font-normal leading-[0.8125rem] tracking-[-.02em]
+    }
     .subtitle-1 {
         @apply response-font-[48-28] text-white font-medium leading-[3.3125rem] tracking-[-.03em]
     }
