@@ -30,6 +30,7 @@ module.exports = {
                 'white/50': 'rgba(255, 255, 255, 0.5)',
             },
 
+
             screens: {
                 mobile: '768px',
                 tablet: '991px',
