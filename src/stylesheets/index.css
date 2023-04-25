@@ -39,7 +39,7 @@
         @apply  response-font-[10-10] uppercase font-normal leading-[0.625rem] tracking-[.02em]
     }
     .button {
-        @apply text-[14px] text-black font-normal  pl-[32px] py-[25px] bg-ocean-green order-1 max-h-[64px] grow mr-px rounded-l-lg font-circleMedium
+        @apply text-[14px] text-black font-normal  pl-[32px] py-[25px] bg-ocean-green order-1 max-h-[64px] grow mr-px rounded-l-lg
     }
     .button-mini {
         @apply rounded-r-lg p-[27px] flex bg-ocean-green order-1 max-h-[64px] 
