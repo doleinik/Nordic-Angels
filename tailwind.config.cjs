@@ -19,7 +19,7 @@ module.exports = {
         },
         fontFamily: {
             'circleRegular': 'var(--circleRegular)',
-            'circleMedium': 'var(--circleMedium)',
+            'circleBook': 'var(--circleBook)',
         },
         extend: {
             colors: {
