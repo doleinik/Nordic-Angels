@@ -10,19 +10,16 @@ module.exports = {
         container: {
             center: true,
             screens: {
-                mobile: '768px',
-                tablet: '991px',
                 desktop: '1360px'
             },
             padding: {
                 DEFAULT: '1.0625rem',
-                mobile: '1.0625rem',
-                tablet: '1.3rem',
                 desktop: '1.5rem',
             },
         },
         fontFamily: {
-            'font': 'var(--font)'
+            'circleRegular': 'var(--circleRegular)',
+            'circleMedium': 'var(--circleMedium)',
         },
         extend: {
             colors: {
@@ -94,6 +91,12 @@ module.exports = {
                     'response-px': (value) => ({
                         paddingLeft: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
                         paddingRight: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'response-h': (value) => ({
+                        height: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'response-w': (value) => ({
+                        width: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
                     })
                 }
             )

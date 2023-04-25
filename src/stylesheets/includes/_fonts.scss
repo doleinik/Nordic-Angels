@@ -1,5 +1,11 @@
 @font-face {
-font-family: "Lato-BoldItalic", sans-serif;
+font-family: "CircularStd-Medium", sans-serif;
 font-display: swap;
-src: url("../fonts/Lato-BoldItalic.woff2") format("woff2");
+src: url("../fonts/CircularStd-Medium.woff2") format("woff2");
+}
+
+@font-face {
+font-family: "CircularStd-Book", sans-serif;
+font-display: swap;
+src: url("../fonts/CircularStd-Book.woff2") format("woff2");
 }
