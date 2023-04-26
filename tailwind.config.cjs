@@ -18,8 +18,8 @@ module.exports = {
             },
         },
         fontFamily: {
-            'circleRegular': 'var(--circleRegular)',
-            'circleBook': 'var(--circleBook)',
+            'circleRegular': "'CircularStd-Book', sans-serif",
+            'circleMedium': "'CircularStd-Medium', sans-serif",
         },
         extend: {
             colors: {
