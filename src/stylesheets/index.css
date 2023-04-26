@@ -6,37 +6,37 @@
 
 @layer components {
     .title-1 {
-        @apply response-font-[160-64] text-white font-medium leading-[9.5rem] tracking-[-.04em]
+        @apply response-font-[160-64] text-white font-medium leading-[9.5rem] tracking-[-.04em] font-circleMedium
     }
     .title-2 {
-        @apply response-font-[80-20] text-white font-medium leading-[4.75rem] tracking-[.03em]
+        @apply response-font-[80-20] text-white font-medium leading-[4.75rem] tracking-[.03em] font-circleMedium
     }
     .title-3 {
-        @apply response-font-[48-28] text-white font-medium leading-[2.875rem] tracking-[-.03em]
+        @apply response-font-[48-28] text-white font-medium leading-[2.875rem] tracking-[-.03em] font-circleMedium
     }
     .title-4 {
-        @apply response-font-[24-18] text-white font-normal leading-[1.625rem] tracking-[-.01em]
+        @apply response-font-[24-18] text-white font-normal leading-[1.625rem] tracking-[-.01em] font-circleRegular
     }
     .title-5 {
-        @apply response-font-[10-10] text-ocean-green font-normal leading-[0.8125rem] tracking-[-.02em]
+        @apply response-font-[10-10] text-ocean-green font-normal leading-[0.8125rem] tracking-[-.02em] font-circleRegular
     }
     .subtitle-1 {
-        @apply response-font-[48-28] text-white font-medium leading-[3.3125rem] tracking-[-.03em]
+        @apply response-font-[48-28] text-white font-medium leading-[3.3125rem] tracking-[-.03em] font-circleMedium
     }
     .subtitle-2 {
-        @apply response-font-[24-18] text-white font-normal leading-[1.875rem] tracking-normal
+        @apply response-font-[24-18] text-white font-normal leading-[1.875rem] tracking-normal font-circleRegular
     }
     .subtitle-3 {
-        @apply response-font-[16-14] text-white font-normal leading-[1.25rem] tracking-[-.01em]
+        @apply response-font-[16-14] text-white font-normal leading-[1.25rem] tracking-[-.01em] font-circleRegular
     }
     .subtitle-4 {
-        @apply response-font-[14-12] text-white font-normal leading-[1.125rem] tracking-[-.01em]
+        @apply response-font-[14-12] text-white font-normal leading-[1.125rem] tracking-[-.01em] font-circleRegular
     }
     .subtitle-5 {
-        @apply response-font-[12-12] text-white font-normal leading-[0.9375rem] tracking-[-.01em]
+        @apply response-font-[12-12] text-white font-normal leading-[0.9375rem] tracking-[-.01em] font-circleRegular
     }
     .label {
-        @apply  response-font-[10-10] uppercase font-normal leading-[0.625rem] tracking-[.02em]
+        @apply  response-font-[10-10] uppercase font-normal leading-[0.625rem] tracking-[.02em] font-circleRegular
     }
     .button {
         @apply text-[14px] text-black font-normal  pl-[32px] py-[25px] bg-ocean-green order-1 max-h-[64px] grow mr-px rounded-l-lg
