@@ -11,7 +11,7 @@
     }
 
     .title-2 {
-        @apply response-font-[80-20] text-white font-medium leading-[0.95] tracking-[.03em] font-circleMedium
+        @apply response-font-[80-48] text-white font-medium leading-[0.95] tracking-[.03em] font-circleMedium
     }
 
     .title-3 {
@@ -35,7 +35,7 @@
     }
 
     .subtitle-4 {
-        @apply response-font-[14-12] text-white font-normal leading-[1.25] tracking-[-.01em] font-circleRegular
+        @apply response-font-[14-14] text-white font-normal leading-[1.25] tracking-[-.01em] font-circleRegular
     }
 
     .subtitle-5 {
