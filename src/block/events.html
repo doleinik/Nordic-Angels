@@ -1,19 +1,23 @@
 <section class="events bg-steel-grey">
-  <div class="container">
-    <div class="response-mb-[0-14]">
-      <h2 class="max-w-[19.375rem] title-2 hidden mobile:block">Events&nbsp;& Meetups</h2>
-      <h2 class="max-w-[19.375rem] m-auto text-center title-2 mobile:hidden">Events&nbsp;& Happenings</h2>
+  <div class="container response-pt-[100-29] px-0">
+    <div class="static px-[1.5rem] response-mb-[30-10] desktop:relative">
+      <div class="response-mb-[0-25]">
+
+        <h2 class="max-w-[30rem] max-h-[200px] title-2 tracking-[0em] hidden desktop:block">Events & Meetups</h2>
+        <h2 class="m-auto tracking-[-.05em] text-center title-2 desktop:hidden">Events & Happenings</h2>
+
+      </div>
+
+      <div class="static m-auto desktop:absolute bottom-[-20px] right-[30px]">
+        <div class="response-mb-[15-29] flex items-center justify-center desktop:justify-end">
+          <p class="response-mr-[8-10] subtitle-4 tracking-0 mobile:tracking-[-.03em]">Interested in hosting or
+            attending? Let us know</p>
+            @@include('../components/circle-arrow.html', {link: '#'})
+        </div>
+      </div>
     </div>
 
-    <div class="response-mb-[15-29] flex items-center justify-center mobile:justify-end">
-      <p class="mr-2 subtitle-4 ">Interested in hosting or attending? Let us know</p>
-      <a href="#">
-        <img src="../assets/img/arrow_button.svg" alt="arrow_butoon">
-      </a>
-    </div>
-
-
-    <div class="flex justify-center gap-10 flex-wrap 2xl:flex-nowrap">
+    <div class="desktop:flex">
       @@include('../components/event_card.html',
       {number: '001',
       title: 'EVENTS & HAPPENINGS',

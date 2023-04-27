@@ -2,7 +2,88 @@
 <html lang="en">
 @@include('../html/head.html',{"title": "@@title"})
 
-<body>
-<header>
-    <div class="container"></div>
+<header class="bg-steel-grey">
+  <div class="container p-0">
+    <div class="flex justify-between border border-white/50">
+      <nav class="hidden tablet:block basis-1/3 bg-white/5">
+        <ul class="h-full flex justify-between items-center response-pl-[48-16] response-pr-[60-16]">
+          <li>
+            <a href="#">
+              <p class="subtitle-4 font-circleRegular tracking-wider">Community</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="subtitle-4 font-circleRegular tracking-wider">About</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="subtitle-4 font-circleRegular tracking-wider">Podcast</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="subtitle-4 font-circleRegular tracking-wider">News</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        class="basis-1/2 flex response-pt-[17-13.5] pl-[.9rem] response-pb-[20-13] tablet:basis-1/3 tablet:justify-center tablet:pl-0">
+        <div class="response-w-[195-154]">
+          <img src="../assets/img/logo.svg" alt="logo">
+        </div>
+      </div>
+
+      <div class="mobile-menu basis-1/2 flex justify-end tablet:basis-1/3">
+        <button class="hidden tablet:block border-l border-white/50 px-[36px]">
+          <p class="subtitle-4 font-circleRegular">Sign In</p>
+        </button>
+
+        <button class="mobile-menu text-white border-l border-white/50 tablet:hidden">
+          <img id="menuButtonImage" src="../assets/img/menu.svg" alt="menu">
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="menu-mobile__list translate-x-[-100%] fixed top-[56px] left-0 right-0 bottom-0 p-4 response-pb-[48-27] bg-black">
+    <div class="h-full flex flex-col justify-between">
+      <ul>
+        <li>
+          <a href="#">
+            <h2 class="title-2 leading-[1.5] tracking-[-.02em]">Community</h2>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2 class="title-2 leading-[1.5] tracking-[-.02em]">About</h2>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2 class="title-2 leading-[1.5] tracking-[-.02em]">Podcast</h2>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2 class="title-2 leading-[1.5] tracking-[-.02em]">News</h2>
+          </a>
+        </li>
+      </ul>
+
+      <a href="#">
+        <h2 class="title-2 leading-[1.5] tracking-[-.02em]">Sign in</h2>
+      </a>
+    </div>
+  </div>
 </header>
+
+<body>
+  <header>
+    <div class="container"></div>
+  </header>
