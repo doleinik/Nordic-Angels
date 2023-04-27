@@ -54,4 +54,19 @@
     .button-mini {
         @apply rounded-r-lg p-[27px] flex bg-ocean-green order-1 max-h-[64px]
     }
+
+    /*Footer*/
+    .footer-nav-list {
+        @apply flex justify-center items-center subtitle-4 h-[87px]  grow flex-1 border-r-[0.5px] border-white/50 last:border-r-0 hover-link basis-1/2
+    }
+
+    .footer-nav-link {
+        @apply flex w-full h-full justify-center items-center
+    }
+
+    /*Hover*/
+    .hover-link {
+        @apply hover:text-ocean-green transition-colors
+    }
+
 }
