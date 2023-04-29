@@ -98,6 +98,12 @@ module.exports = {
                     }),
                     'response-w': (value) => ({
                         width: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 320px)/ 1600))`,
+                    }),
+                    'res-w-max': (value) => ({
+                        maxWidth: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 390px)/ 1600))`,
+                    }),
+                    'res-h-max': (value) => ({
+                        maxHeight: `calc(${value.split('-')[1]}px + ${value.split('-')[0] - value.split('-')[1]} * ((100vw - 390px)/ 1600))`,
                     })
                 }
             )
