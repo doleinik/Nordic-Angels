@@ -56,7 +56,7 @@
     }
 
     /*Footer*/
-    .footer-nav-list {
+    .footer-nav-item {
         @apply flex justify-center items-center subtitle-4 h-[87px]  grow flex-1 border-r-[0.5px] border-white/50 last:border-r-0 hover-link basis-1/2
     }
 
